@@ -24,3 +24,8 @@
     Решение проблемы с биндингом портов хоста и контейнера без удаления контейнера и повторного изменения конфигуарции nginx
     
     ![Console output](img/TASk_3_docker_solution.png)
+
+
+4. Работа с  docker  volume
+
+    ![Console output](img/TASK_3_docker_volume.png) 
