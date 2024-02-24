@@ -52,3 +52,21 @@
 
 
     ![Console output](img/TASK_5_compose_orphans_and_down.png)
+
+
+Содеражние файла compose.yaml
+```yaml
+
+version: "3"
+include:
+  - docker-compose.yaml
+services:
+  portainer:
+    image: portainer/portainer-ce:latest
+    network_mode: bridge
+    ports:
+      - "9000:9000"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+
+```
