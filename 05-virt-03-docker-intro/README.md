@@ -29,3 +29,26 @@
 4. Работа с  docker  volume
 
     ![Console output](img/TASK_3_docker_volume.png) 
+
+
+5. Т.к. docker ипсользовался на ВМ  VirtualBox вместо типа сети контейнера host,  пришлось  использовать  тип bridge (указан в  compose  файле, хотя  это не обязательно),  чтобы была возможность  попасть в  web-интерфейс portainer.
+
+    ![Console output](img/TASK_5_compose%20files.png)
+
+
+    ![Console output](img/TASK_5_compose_include.png)
+
+
+    ![Console output](img/TASK_5_tag_and_push.png)
+
+
+    ![Console output](img/TASK_5_portainer_admin.png)
+
+
+    ![Console output](img/TASK_5_compose_nginx.png)
+
+
+    ![Console output](img/TASK_5_nginx_inspect.png)
+
+
+    ![Console output](img/TASK_5_compose_orphans_and_down.png)
